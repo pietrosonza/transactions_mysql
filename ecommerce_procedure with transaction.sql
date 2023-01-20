@@ -1,12 +1,3 @@
-create table lost_product (
-	nomeProduto varchar(30),
-    marcaProduto varchar(30),
-    categoriaProduto varchar(30),
-    valorProduto float,
-    avaliacaoProduto float);
-    drop table lost_product;
-
-
 delimiter %
 /*
  Procedure para inserir um novo produto, se for da categoria eletronico ele irá adicionar
